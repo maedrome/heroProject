@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="theHeroProject"
+        android:textSize="15sp"
+        android:background="@color/teal_700"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplicaciones moviles y sistemas telematicos"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:padding="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Examen practico"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daniel Robles y Marcelo Romero"
+        android:textSize="12sp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/EditSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Busqueda por nombre"
+        android:textSize="15sp"
+        android:inputType="text">
+    </EditText>
+    <Button
+        android:id="@+id/BtnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar heroes"
+        ></Button>
+
+    Message @Dielderescrols
+</LinearLayout>
