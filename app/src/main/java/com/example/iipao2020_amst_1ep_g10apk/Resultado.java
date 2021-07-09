@@ -29,7 +29,7 @@ public class Resultado extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resultado);
-        tv=(TextView)findViewById(R.id.Tvh);
+        tv=(TextView)findViewById(R.id.EditSearch);
         mQueue = Volley.newRequestQueue(this);
         editText=(EditText)findViewById(R.id.EditSearch);
         stringRequest();
